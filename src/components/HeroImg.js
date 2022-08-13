@@ -14,7 +14,7 @@ const IntroImg = () => {
         <p>Hello I am Rukhsana</p>
         <h1>A Full Stack Developer.</h1>
       </div>
-      <div>
+      <div className="content">
         <Link to="/project" className="btn">
           Projects
         </Link>
