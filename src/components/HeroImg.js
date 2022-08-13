@@ -2,6 +2,7 @@ import "./HeroImgStyles.css";
 import React from "react";
 // my background image
 import IntroImage from "../assets/pink-sky.jpg";
+import PhotoImage from "../assets/photo.jpg";
 import { Link } from "react-router-dom";
 
 const IntroImg = () => {
@@ -11,8 +12,15 @@ const IntroImg = () => {
         <img className="intro-img" src={IntroImage} alt="Image of pink sky" />
       </div>
       <div className="content">
-        <p>Hello I am Rukhsana</p>
+        <p>Hi I'm Rukhsana</p>
         <h1>A Full Stack Developer.</h1>
+        <div className="photo-place">
+          <img
+            className="photo"
+            src={PhotoImage}
+            alt="Image of a cartoon avatar lady"
+          />
+        </div>
       </div>
       <div className="content">
         <Link to="/project" className="btn">

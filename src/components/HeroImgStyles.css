@@ -39,6 +39,30 @@
 }
 
 .hero .content h1 {
+  position: relative;
   font-size: 4rem;
-  padding: 0.6rem 0 16rem;
+  padding: 0.6rem 0 18rem;
+}
+
+.hero .content p {
+  font-size: 1.4rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.content .btn {
+  margin: 1rem 0.2rem;
+}
+
+.photo {
+  position: relative;
+  width: 30%;
+  height: auto;
+  border-radius: 80%;
+  padding: 1rem 0 0rem;
+}
+
+.photo-place {
+  position: absolute;
+  padding: 1rem o 4rem;
 }
