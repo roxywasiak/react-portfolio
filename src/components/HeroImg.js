@@ -1,15 +1,29 @@
 import "./HeroImgStyles.css";
 import React from "react";
-import HeroImage from "../assets/sunshine.jpg";
+// my background image
+import IntroImage from "../assets/pink-sky.jpg";
+import { Link } from "react-router-dom";
 
-const HeroImg = () => {
+const IntroImg = () => {
   return (
     <div className="hero">
       <div className="mask">
-        <img className="hero-img" src={HeroImage} alt="Lady" />
+        <img className="intro-img" src={IntroImage} alt="Image of pink sky" />
+      </div>
+      <div className="content">
+        <p>Hello I am Rukhsana</p>
+        <h1>A Full Stack Developer.</h1>
+      </div>
+      <div>
+        <Link to="/project" className="btn">
+          Projects
+        </Link>
+        <Link to="/contact" className=" btn btn-light">
+          Contact
+        </Link>
       </div>
     </div>
   );
 };
 
-export default HeroImg;
+export default IntroImg;
