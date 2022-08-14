@@ -21,6 +21,7 @@ const Footer = () => {
           <div>
             <p>58 Lyttleton Street</p>
             <p>West Bromwhich</p>
+            <p>B70 7SB</p>
           </div>
           <div className="phone">
             <h4>
