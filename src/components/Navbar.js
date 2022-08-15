@@ -1,7 +1,7 @@
 import "../components/NavbarStyles.css";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-// icons from react and need to specialize which category
+// icons from react and need to specialize which category fa for hamburger menu bars
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
@@ -40,7 +40,7 @@ const Navbar = () => {
       </ul>
 
       <div className="hamburger" onClick={handleClick}>
-        {/* to show or not show close icon for menu */}
+        {/* to show the burger icon call the click function and hide in my css */}
         {click ? (
           <FaTimes size={20} style={{ color: "#fff" }} />
         ) : (
