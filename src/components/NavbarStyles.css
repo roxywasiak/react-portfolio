@@ -10,7 +10,7 @@
 }
 
 .header-bg {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.1);
   transition: 0.5s;
 }
 
@@ -39,9 +39,9 @@
     height: 100vh;
     background: rgba (0, 0, 0, 0.9);
     position: absolute;
-    top: 0;
+    top: -0;
     left: -100%;
-    z-index: -3;
+    z-index: -1;
     transition: 0.3s;
   }
   .nav-menu.active {
@@ -49,7 +49,7 @@
   }
 
   .nav-menu li {
-    padding: 1 rem o;
+    padding: 1 0;
   }
   .nav-menu li a {
     font-size: 2rem;
