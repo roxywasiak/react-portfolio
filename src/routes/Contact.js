@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import HeroThree from "../components/HeroThree";
+import HeroTwo from "../components/HeroTwo";
 
 const Contact = () => {
   return (
     <div>
       <Navbar />
-      <HeroThree heading="CONTACT." text="Let's have a chat" />
+      <HeroTwo heading="CONTACT." text="Let's have a chat" />
       <Footer />
     </div>
   );

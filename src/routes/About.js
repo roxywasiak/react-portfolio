@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import HeroThree from "../components/HeroThree";
+import HeroTwo from "../components/HeroTwo";
 
 const About = () => {
   return (
     <div>
       k
       <Navbar />
-      <HeroThree
+      <HeroTwo
         heading="About Me"
         text="A collaborative Full Stack Developer."
       />
