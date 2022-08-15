@@ -6,8 +6,12 @@ import HeroThree from "../components/HeroThree";
 const About = () => {
   return (
     <div>
+      k
       <Navbar />
-      <HeroThree heading="About Me" text="strapline" />
+      <HeroThree
+        heading="About Me"
+        text="A collaborative Full Stack Developer."
+      />
       <Footer />
     </div>
   );
