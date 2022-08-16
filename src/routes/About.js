@@ -2,16 +2,23 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroTwo from "../components/HeroTwo";
+import PhotoImage from "../assets/photo.jpg";
 
 const About = () => {
   return (
     <div>
-      k
       <Navbar />
       <HeroTwo
         heading="About Me"
         text="A collaborative Full Stack Developer."
       />
+      <div className="photo-place">
+        <img
+          className="photo"
+          src={PhotoImage}
+          alt="Image of a cartoon avatar lady"
+        />
+      </div>
       <Footer />
     </div>
   );
