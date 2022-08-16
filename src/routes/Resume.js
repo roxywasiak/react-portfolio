@@ -11,9 +11,8 @@ const Resume = () => {
       <Navbar />
       <HeroTwo heading="RESUME" text="Explore my resume" />
       <div className="cv">
-        <Link to="./src/assets/rukhsana.pdf">
-          {" "}
-          <FaFileDownload size={60} style={{ color: "#fff" }} />
+        <Link to="./src/assets/rukhsana.pdf" target="_blank" download>
+          <FaFileDownload size={80} style={{ color: "#fff" }} />
         </Link>
       </div>
       <Footer />
