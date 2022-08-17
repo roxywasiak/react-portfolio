@@ -1,8 +1,5 @@
 import "./WorkCardStyles.css";
-import pro1 from "../assets/buddyup.png";
-
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 const Work = () => {
   return (
