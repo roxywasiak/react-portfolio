@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaInstagram,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -50,10 +51,12 @@ const Footer = () => {
             Contact me on any of my socials or email for any more information
           </p>
           <div className="social">
-            <FaGithub
-              size={30}
-              style={{ color: "#ffff", marginRight: "1rem" }}
-            />
+            <Link to="https://github.com/roxywasiak" target="_blank">
+              <FaGithub
+                size={30}
+                style={{ color: "#ffff", marginRight: "1rem" }}
+              />
+            </Link>
             <FaLinkedin
               size={30}
               style={{ color: "#ffff", marginRight: "1rem" }}
