@@ -4,7 +4,7 @@ import {
   FaHome,
   FaRegEnvelopeOpen,
   FaPhone,
-  FaFacebook,
+  FaGithub,
   FaLinkedin,
   FaInstagram,
 } from "react-icons/fa";
@@ -50,7 +50,7 @@ const Footer = () => {
             Contact me on any of my socials or email for any more information
           </p>
           <div className="social">
-            <FaFacebook
+            <FaGithub
               size={30}
               style={{ color: "#ffff", marginRight: "1rem" }}
             />
@@ -70,3 +70,4 @@ const Footer = () => {
 };
 
 export default Footer;
+// ask tutor about pathname links to click

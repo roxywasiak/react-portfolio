@@ -25,3 +25,4 @@ const About = () => {
 };
 
 export default About;
+// your photo styles are in heroimstyles not sure if i should make component ask tutor or see how tos tyle yourself.
