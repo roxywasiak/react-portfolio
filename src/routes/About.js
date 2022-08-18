@@ -11,10 +11,11 @@ const About = () => {
       <HeroTwo
         heading="About Me"
         text="A collaborative Full Stack Developer."
+        subhead="Write a short description or bio"
       />
       <div className="photo-place">
         <img
-          className="photo"
+          className="photo" 
           src={PhotoImage}
           alt="Image of a cartoon avatar lady"
         />

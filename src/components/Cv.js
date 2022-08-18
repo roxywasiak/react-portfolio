@@ -7,9 +7,9 @@ import React from "react";
 const CV = () => {
   return (
     <div className="cv">
-      <Link to="./src/assets/rukhsana.pdf" target="_blank" download>
+      <a href="/rukhsana.pdf" target="_blank" download>
         <FaFileDownload size={80} style={{ color: "#fff" }} />
-      </Link>
+      </a>
     </div>
   );
 };

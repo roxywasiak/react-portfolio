@@ -8,6 +8,8 @@ class HeroTwo extends Component {
         <div className="heading">
           <h1>{this.props.heading}</h1>
           <p>{this.props.text}</p>
+          <h2>{this.props.title}</h2>
+          <p>{this.props.subhead}</p>
         </div>
       </div>
     );
