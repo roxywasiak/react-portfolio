@@ -11,9 +11,8 @@ const Resume = () => {
       <Navbar />
       <HeroTwo
         heading="RESUME"
-        text="Explore my resume"
         title="My Skills"
-        subhead="JavaScript, HTML, CSS, NodeJs"
+        subhead=" HTML ,CSS3, JavaScript, JQuery ,Bootstrap, Express.js , React.js, Node.js, MongoDB, MySQL/noSQL, Git, API's, GraphQL"
       />
       <CV />
 

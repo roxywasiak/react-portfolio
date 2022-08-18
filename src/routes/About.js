@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroTwo from "../components/HeroTwo";
-import PhotoImage from "../assets/photo.jpg";
+import PhotoImage from "../assets/sunshine.jpg";
 
 const About = () => {
   return (
