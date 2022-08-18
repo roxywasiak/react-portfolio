@@ -10,12 +10,13 @@ const About = () => {
       <Navbar />
       <HeroTwo
         heading="About Me"
-        text="A collaborative Full Stack Developer."
-        subhead="Write a short description or bio"
+        text="Rukhsana Wasiak"
+        subhead="A collaborative Full Stack Developer based in Birmingham. 
+        I come from a strong client facing background and enjoy problem solving. I enjoy cookery and fitness in my spare time as well as learning more code to build new projects."
       />
       <div className="photo-place">
         <img
-          className="photo" 
+          className="photo"
           src={PhotoImage}
           alt="Image of a cartoon avatar lady"
         />
@@ -26,4 +27,3 @@ const About = () => {
 };
 
 export default About;
-// your photo styles are in heroimstyles not sure if i should make component ask tutor or see how tos tyle yourself.
