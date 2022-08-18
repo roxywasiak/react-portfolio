@@ -36,10 +36,12 @@ const Footer = () => {
 
           <div className="email">
             <h4>
-              <FaRegEnvelopeOpen
-                size={20}
-                style={{ color: "#ffff", marginRight: "2rem" }}
-              />
+              <a href="mailto:ruksclone@hotmail.com">
+                <FaRegEnvelopeOpen
+                  size={20}
+                  style={{ color: "#ffff", marginRight: "2rem" }}
+                />
+              </a>
               ruksclone@hotmail.com
             </h4>
           </div>
@@ -57,14 +59,18 @@ const Footer = () => {
                 style={{ color: "#ffff", marginRight: "1rem" }}
               />
             </Link>
-            <FaLinkedin
-              size={30}
-              style={{ color: "#ffff", marginRight: "1rem" }}
-            />
-            <FaInstagram
-              size={30}
-              style={{ color: "#ffff", marginRight: "1rem" }}
-            />
+            <Link to="https://www.linkedin.com/in/rukhsana-wasiak-43561a94/">
+              <FaLinkedin
+                size={30}
+                style={{ color: "#ffff", marginRight: "1rem" }}
+              />
+            </Link>
+            <Link to="https://www.instagram.com/ruksclone/">
+              <FaInstagram
+                size={30}
+                style={{ color: "#ffff", marginRight: "1rem" }}
+              />
+            </Link>
           </div>
         </div>
       </div>
