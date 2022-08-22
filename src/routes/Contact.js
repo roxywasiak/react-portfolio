@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroTwo from "../components/HeroTwo";
 import { FaCoffee } from "react-icons/fa";
+import Form from "../components/Form";
 
 const Contact = () => {
   return (
@@ -12,6 +13,7 @@ const Contact = () => {
       <div className="coffee">
         <FaCoffee size={80} style={{ color: "#fff" }} />
       </div>
+      <Form />
       <Footer />
     </div>
   );
