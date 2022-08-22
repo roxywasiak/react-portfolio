@@ -49,3 +49,5 @@ const ProjectCardData = [
     source: "https://github.com/roxywasiak/code-quiz/tree/dev",
   },
 ];
+
+export default ProjectCardData;
