@@ -64,7 +64,7 @@
 }
 
 .photo {
-  width: 140px;
+  width: 150px;
   height: auto;
   border-radius: 80%;
   padding: 1rem 0 0rem;
@@ -80,7 +80,16 @@
 
 .coffee {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 640px) {
+  .photo-place {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
