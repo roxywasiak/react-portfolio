@@ -46,4 +46,7 @@
     margin: auto;
     grid-template-columns: 1fr;
   }
+  .pro-btn btn {
+    padding: 0.5rem 1rem;
+  }
 }
