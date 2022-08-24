@@ -26,19 +26,19 @@ const Navbar = () => {
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/project">Projects</Link>
+          <Link to="project">Projects</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="about">About</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="contact">Contact</Link>
         </li>
         <li>
-          <Link to="/resume">Resume</Link>
+          <Link to="resume">Resume</Link>
         </li>
       </ul>
 
