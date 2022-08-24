@@ -12,14 +12,15 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <Routes>
+      <Home></Home>
+      {/* <Routes>
         <Route path="/" element={<About exact={true} />} />
         <Route path="/home" element={<Home />} />
         <Route path="/project" element={<Project exact={true} />} />
         <Route path="/about" element={<About exact={true} />} />
         <Route path="/contact" element={<Contact exact={true} />} />
         <Route path="/resume" element={<Resume exact={true} />} />
-      </Routes>
+      </Routes> */}
     </>
   );
 }
