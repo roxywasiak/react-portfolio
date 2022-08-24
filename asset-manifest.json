@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/roxywasiak/react-portfolio/static/css/main.7bbe90e7.css",
-    "main.js": "/roxywasiak/react-portfolio/static/js/main.7237572d.js",
-    "static/media/buddyup.png": "/roxywasiak/react-portfolio/static/media/buddyup.02f2b15a486c4571c04b.png",
-    "static/media/homepage.png": "/roxywasiak/react-portfolio/static/media/homepage.38ad7e8164eb5e24df97.png",
-    "static/media/pink-sky.jpg": "/roxywasiak/react-portfolio/static/media/pink-sky.e7185f1927cd64ef9986.jpg",
-    "static/media/sunshine.jpg": "/roxywasiak/react-portfolio/static/media/sunshine.3cd1dcf8e01d6e41838d.jpg",
-    "static/media/workdaysched.png": "/roxywasiak/react-portfolio/static/media/workdaysched.b89c264db526e8f11eee.png",
-    "static/media/quizstart.png": "/roxywasiak/react-portfolio/static/media/quizstart.cba9de877408c8b45ea6.png",
-    "static/media/passwordgen.png": "/roxywasiak/react-portfolio/static/media/passwordgen.38b2ad5e4708fc0197a7.png",
-    "static/media/notehome.png": "/roxywasiak/react-portfolio/static/media/notehome.ed5c79015c3f30c13e5a.png",
-    "index.html": "/roxywasiak/react-portfolio/index.html",
-    "main.7bbe90e7.css.map": "/roxywasiak/react-portfolio/static/css/main.7bbe90e7.css.map",
-    "main.7237572d.js.map": "/roxywasiak/react-portfolio/static/js/main.7237572d.js.map"
+    "main.css": "/react-portfolio/static/css/main.7bbe90e7.css",
+    "main.js": "/react-portfolio/static/js/main.17b31df5.js",
+    "static/media/buddyup.png": "/react-portfolio/static/media/buddyup.02f2b15a486c4571c04b.png",
+    "static/media/homepage.png": "/react-portfolio/static/media/homepage.38ad7e8164eb5e24df97.png",
+    "static/media/pink-sky.jpg": "/react-portfolio/static/media/pink-sky.e7185f1927cd64ef9986.jpg",
+    "static/media/sunshine.jpg": "/react-portfolio/static/media/sunshine.3cd1dcf8e01d6e41838d.jpg",
+    "static/media/workdaysched.png": "/react-portfolio/static/media/workdaysched.b89c264db526e8f11eee.png",
+    "static/media/quizstart.png": "/react-portfolio/static/media/quizstart.cba9de877408c8b45ea6.png",
+    "static/media/passwordgen.png": "/react-portfolio/static/media/passwordgen.38b2ad5e4708fc0197a7.png",
+    "static/media/notehome.png": "/react-portfolio/static/media/notehome.ed5c79015c3f30c13e5a.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.7bbe90e7.css.map": "/react-portfolio/static/css/main.7bbe90e7.css.map",
+    "main.17b31df5.js.map": "/react-portfolio/static/js/main.17b31df5.js.map"
   },
   "entrypoints": [
     "static/css/main.7bbe90e7.css",
-    "static/js/main.7237572d.js"
+    "static/js/main.17b31df5.js"
   ]
 }
