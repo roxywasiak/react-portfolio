@@ -38,6 +38,7 @@ function App() {
   return (
     <>
       <Routes>
+        <Route path="/" element={<About exact={true} />} />
         <Route path="/" element={<Home exact={true} />} />
         <Route path="/project" element={<Project exact={true} />} />
         <Route path="/about" element={<About exact={true} />} />
