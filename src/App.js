@@ -13,7 +13,7 @@ function App() {
     <>
       <Routes>
         <Route path="/about" element={<About exact={true} />} />
-        <Route path="/" element={<Home exact={true} />} />
+        <Route path="/home" element={<Home exact={true} />} />
         <Route path="/project" element={<Project exact={true} />} />
         <Route path="/about" element={<About exact={true} />} />
         <Route path="/contact" element={<Contact exact={true} />} />
