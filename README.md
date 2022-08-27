@@ -36,7 +36,7 @@ npm run start
 
 ## View The project 👀
 
-Click [here]() to view the project.
+Click [here](https://roxywasiak.github.io/react-portfolio) to view the project.
 
 ## Contact ✋
 
